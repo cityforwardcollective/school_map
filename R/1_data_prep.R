@@ -269,7 +269,8 @@ x <- all_prof |>
   mutate(accurate_agency_type = str_remove(accurate_agency_type, "\\*")) |>
   filter(!is.na(accurate_agency_type)) |> 
   group_by(accurate_agency_type) |> 
-  left_join(geocodes) |> 
+  left_join(geocodes |> 
+              select(-school_year)) |> 
   select(school_year,
          dpi_true_id,
          lat,
@@ -288,7 +289,11 @@ x <- all_prof |>
          per_swd,
          per_lep,
          per_b_aa,
-         per_hisp_lat) |> 
+         per_hisp_lat,
+         address = address2,
+         phone_number,
+         website_url,
+         email) |> 
   left_join(schools |> 
               select(dpi_true_id,
                      school_year,

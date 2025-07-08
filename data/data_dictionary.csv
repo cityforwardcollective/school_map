@@ -1,0 +1,25 @@
+school_year,School year.
+dpi_true_id,"Unique idea created by concatenating the District Code (or '0000' for Private schools) and the School Code, with '_' separating."
+lat,Latitude of the school.
+long,Longitude of the school.
+school_name,School name.
+accurate_agency_type,"Agency type (aka Sector) of the school, as defined by City Forward Collective."
+grade_band,Grade band served by the school.
+school_enrollment,Total school enrollment as reported by DPI on school report cards
+ELA,Percentage of students in the school proficient in ELA.
+Mathematics,Percentage of students in the school proficient in Math.
+overall_rating,Overall Rating on Wisconsin School Report Card
+overall_score,Overall Score on Wisconsin School Report Card
+sch_ach,Achievement Score on Wisconsin School Report Card
+sch_growth,Growth Score on Wisconsin School Report Card
+per_ed,"Percent of the school's enrollment that is economically disadvantaged, as reported on Wisconsin School Report Card"
+per_swd,"Percent of the school's enrollment comprised of students with disabilities, as reported on Wisconsin School Report Card"
+per_lep,"Percent of the school's enrollment that has limited English proficiency, as reported on Wisconsin School Report Card"
+per_b_aa,"Percent of the school's enrollment that is Black or African American, as reported on Wisconsin School Report Card"
+per_hisp_lat,"Percent of the school's enrollment that is Hispanic or Latino, as reported on Wisconsin School Report Card"
+address,"School address, as reported in DPI school directories."
+phone_number,"School phone number, as reported in DPI school directories."
+website_url,"School website, as reported in DPI school directories."
+email,"School email, as reported in DPI school directories."
+milwaukee_indicator,"Indicator for whether a school is a Milwaukee school, per CFC's methodology."
+growth_rating,"Growth rating of the school, which buckets the Growth Score per CFC's methodology."
