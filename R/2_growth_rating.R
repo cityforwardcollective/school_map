@@ -40,4 +40,4 @@ w_growth_rating <- x |>
   # # summarise(total = sum(school_enrollment, na.rm = TRUE)) |> 
   # mutate(perc = n / sum(n))
 
-write_csv(w_growth_rating, "data/wisconsin_schools_data_2023-24.csv")
+write_csv(w_growth_rating, "data/wisconsin_schools_data.csv")
