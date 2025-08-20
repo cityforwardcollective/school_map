@@ -33,7 +33,8 @@ w_growth_rating <- x |>
       "Average Growth",
       "Above Average Growth",
       "Well Above Average Growth"
-    )))
+    ))) |> 
+  arrange(overall_score)
   # group_by(growth_rating) |> 
   # count() |> 
   # ungroup() |> 
