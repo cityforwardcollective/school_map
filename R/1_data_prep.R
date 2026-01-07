@@ -363,10 +363,10 @@ cfc_scored <- map2_df(
   ungroup() |>
   mutate(
     cfc_rating = case_when(
-      cfc_score < 48.0 ~ "Fails to Meet Expectations",
-      cfc_score < 58.0 ~ "Meets Few Expectations",
-      cfc_score < 70.0 ~ "Meets Expectations",
-      cfc_score < 83.0 ~ "Exceeds Expectations",
+      cfc_score < 49.0 ~ "Fails to Meet Expectations",
+      cfc_score < 60.0 ~ "Meets Few Expectations",
+      cfc_score < 71.0 ~ "Meets Expectations",
+      cfc_score < 84.0 ~ "Exceeds Expectations",
       cfc_score < 100.0 ~ "Significantly Exceeds Expectations",
       TRUE ~ NA
     )
